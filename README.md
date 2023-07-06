@@ -1,4 +1,7 @@
 # scam
+强烈推荐阅读：<a href='quickstart.md'>快速上手成为骗子</a>
+<br>
+<br>
 诈骗站源码，全屏伪装锁电脑。 <br>A PHP website script for scam that will pretend to lock your computer by toggling full screen.
 <br>
 <br>
