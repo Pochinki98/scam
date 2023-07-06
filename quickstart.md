@@ -25,5 +25,5 @@
 第八步：把钱交给老婆，运气差点的话把钱交给公安。
 <br>
 <br>
-再次强调：
+再次强调：你的一切用途，所产生的一切后果，所带来的一切收益或是支出都与本人无关！！！后果自负！！！
 <br><br><img src='https://ygwiki.eu.org/lib/tpl/dokuwiki/images/logo.png'>
