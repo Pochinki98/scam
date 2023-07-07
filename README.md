@@ -8,7 +8,7 @@
 从一个诈骗站爬过来的，支付二维码已经删除。已经对接自有ip地址接口https://ygwiki.eu.org/ip.php。<br>Got from a foxy scam website but the QRcode for payment was removed.The script has its IP api in it (https://ygwiki.eu.org/ip.php) .
 <br>
 <br>
-示例地址：https://ygwiki.eu.org/scam。<br>This is a example: https://ygwiki.eu.org/scam .
+示例地址：https://ygwiki.eu.org/scam</a>。<br>This is a example: https://ygwiki.eu.org/scam .
 <br>
 <br>
 （为啥不用GitHub Pages？用了的话我账户不被ban掉才怪！）<br>( Why do I not deploy it with GitHub Pages? Because I'll be banned by GitHub if so!)
