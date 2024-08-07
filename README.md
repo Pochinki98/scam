@@ -1,4 +1,7 @@
 # scam
+<br><br>
+https://pochinki98.github.io/scam
+<br><br>
 强烈推荐阅读：<a href='quickstart.md'>快速上手成为骗子</a>
 <br>
 <br>
