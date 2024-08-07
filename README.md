@@ -11,6 +11,8 @@
 示例地址：https://pochinki98.github.io/scam</a>。<br>This is a example: https://pochinki98.github.io/scam .
 <br>
 <br>
+下一段内容已经作废-2024.8
+<br>
 为了防止违反法律，示例站的文字和源码完全不一致，具体详见源码。<br>The example was crafted with Simplified Chinese and the illegal phrases and words were modified or removed.Now the example looks like just a funny website that's to tease people...Anyway the words of the script here is totally far distant from the example website.
 <br>
 <br>
