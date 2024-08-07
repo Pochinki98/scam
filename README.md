@@ -11,9 +11,6 @@
 示例地址：https://ygwiki.eu.org/scam</a>。<br>This is a example: https://ygwiki.eu.org/scam .
 <br>
 <br>
-（为啥不用GitHub Pages？用了的话我账户不被ban掉才怪！）<br>( Why do I not deploy it with GitHub Pages? Because I'll be banned by GitHub if so!)
-<br>
-<br>
 为了防止违反法律，示例站的文字和源码完全不一致，具体详见源码。<br>The example was crafted with Simplified Chinese and the illegal phrases and words were modified or removed.Now the example looks like just a funny website that's to tease people...Anyway the words of the script here is totally far distant from the example website.
 <br>
 <br>
