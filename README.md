@@ -1,4 +1,6 @@
 # scam
+看看自己几年前脑子一热搞出来的东西感觉有点可爱————2025/2/21
+##
 <br><br>
 https://pochinki98.github.io/scam
 <br><br>
