@@ -80,7 +80,7 @@ document.oncontextmenu=new Function("return false");
 
 <script>
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://ygwiki.eu.org/ip.php');
+xhr.open('GET', 'https://checkip.amazonaws.com/');
 xhr.onload = function() {
   document.getElementById('ip-address').textContent = xhr.responseText;
 };
