@@ -10,7 +10,7 @@ https://pochinki98.github.io/scam
 诈骗站源码，全屏伪装锁电脑。 <br>A PHP website script for scam that will pretend to lock your computer by toggling full screen.
 <br>
 <br>
-从一个诈骗站爬过来的，支付二维码已经删除。已经对接自有ip地址接口https://ygwiki.eu.org/ip.php。<br>Got from a foxy scam website but for security the QRcode for payment was removed by me.The script has its IP api in it (https://ygwiki.eu.org/ip.php) .
+从一个诈骗站爬过来的，支付二维码已经删除。已经对接ip地址接口https://checkip.amazonaws.com/ 。<br>Got from a foxy scam website but for security the QRcode for payment was removed by me.The script has its IP api in it (https://checkip.amazonaws.com/) .
 <br>
 <br>
 示例地址：https://pochinki98.github.io/scam</a>。<br>This is a example: https://pochinki98.github.io/scam .
